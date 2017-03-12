@@ -67,7 +67,7 @@ Adapted from a [MSDN blog](https://blogs.msdn.microsoft.com/francesco/2014/09/12
 Unfortunately, CCCheck will still complain with _CodeContracts: requires unreachable_.
 You can safely suppress this warning and, later on, if you reach the "unreachable"
 point, CCCheck will produce a different warning: _This requires, always
-leading to an error, may be reachable. Are you missing an enum case?
+leading to an error, may be reachable. Are you missing an enum case?_.
 
 ### `Narvalo.ValidatedNotNullAttribute`
 
