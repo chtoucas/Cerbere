@@ -3,8 +3,7 @@
 namespace Narvalo
 {
     using System;
-    using System.Diagnostics.CodeAnalysis;
-    using System.Diagnostics.Contracts;
+    using System.Globalization;
 
     using Narvalo.Properties;
 
@@ -97,7 +96,8 @@ namespace Narvalo
                 throw new ArgumentOutOfRangeException(
                     parameterName,
                     value,
-                    Format.Current(
+                    String.Format(
+                        CultureInfo.CurrentCulture,
                         Strings_Cerbere.ArgumentOutOfRange,
                         parameterName,
                         minInclusive,

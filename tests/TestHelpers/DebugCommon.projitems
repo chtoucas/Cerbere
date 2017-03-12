@@ -13,6 +13,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)DebugAssertFixture.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DebugOnlyFactAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EnvironmentFacts.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)My.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ReleaseOnlyFactAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UnitTestTraceListener.cs" />
   </ItemGroup>

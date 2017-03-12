@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Narvalo.Cerbere", "src\Narvalo.Cerbere\Narvalo.Cerbere.csproj", "{12E31A33-A712-4620-8FC4-C6CC737F625D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Narvalo.Cerbere.Facts", "tests\Narvalo.Cerbere.Facts\Narvalo.Cerbere.Facts.csproj", "{4BA6E7E0-CD1F-4FD0-B44F-C7D6584F233B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TestHelpers", "tests\TestHelpers\TestHelpers.shproj", "{C1CC85FF-5C06-404B-97A0-A2F422066420}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		tests\TestHelpers\DebugCommon.projitems*{4ba6e7e0-cd1f-4fd0-b44f-c7d6584f233b}*SharedItemsImports = 4
+		tests\TestHelpers\DebugCommon.projitems*{c1cc85ff-5c06-404b-97a0-a2f422066420}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CodeContracts|Any CPU = CodeContracts|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12E31A33-A712-4620-8FC4-C6CC737F625D}.CodeContracts|Any CPU.ActiveCfg = CodeContracts|Any CPU
+		{12E31A33-A712-4620-8FC4-C6CC737F625D}.CodeContracts|Any CPU.Build.0 = CodeContracts|Any CPU
+		{12E31A33-A712-4620-8FC4-C6CC737F625D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E31A33-A712-4620-8FC4-C6CC737F625D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E31A33-A712-4620-8FC4-C6CC737F625D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E31A33-A712-4620-8FC4-C6CC737F625D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA6E7E0-CD1F-4FD0-B44F-C7D6584F233B}.CodeContracts|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA6E7E0-CD1F-4FD0-B44F-C7D6584F233B}.CodeContracts|Any CPU.Build.0 = Release|Any CPU
+		{4BA6E7E0-CD1F-4FD0-B44F-C7D6584F233B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA6E7E0-CD1F-4FD0-B44F-C7D6584F233B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA6E7E0-CD1F-4FD0-B44F-C7D6584F233B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA6E7E0-CD1F-4FD0-B44F-C7D6584F233B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
