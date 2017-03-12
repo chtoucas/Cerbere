@@ -5,6 +5,7 @@ namespace Narvalo
     using System;
     using System.Collections.Generic;
 
+    using Narvalo.Utilities;
     using Xunit;
 
     public static partial class EnforceFacts

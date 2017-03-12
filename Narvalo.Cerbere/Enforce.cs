@@ -37,7 +37,7 @@ namespace Narvalo
 
             if (!testCondition)
             {
-                throw new ArgumentException(Strings_Cerbere.Argument_TestFailed, parameterName);
+                throw new ArgumentException(Strings.Argument_TestFailed, parameterName);
             }
         }
 
@@ -98,7 +98,7 @@ namespace Narvalo
                     value,
                     String.Format(
                         CultureInfo.CurrentCulture,
-                        Strings_Cerbere.ArgumentOutOfRange,
+                        Strings.ArgumentOutOfRange,
                         parameterName,
                         minInclusive,
                         maxInclusive));
@@ -111,7 +111,7 @@ namespace Narvalo
 
             if (Check.IsWhiteSpace(value))
             {
-                throw new ArgumentException(Strings_Cerbere.Argument_WhiteSpaceString, parameterName);
+                throw new ArgumentException(Strings.Argument_WhiteSpaceString, parameterName);
             }
         }
     }

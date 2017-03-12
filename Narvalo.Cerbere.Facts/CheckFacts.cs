@@ -4,6 +4,7 @@ namespace Narvalo
 {
     using System;
 
+    using Narvalo.Utilities;
     using Xunit;
 
     public sealed partial class CheckFacts : IClassFixture<DebugAssertFixture>

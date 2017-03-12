@@ -51,7 +51,7 @@ namespace Narvalo
         {
             if (!testCondition)
             {
-                throw new ArgumentException(Strings_Cerbere.Argument_TestFailed, parameterName);
+                throw new ArgumentException(Strings.Argument_TestFailed, parameterName);
             }
 
             Contract.EndContractBlock();
@@ -147,7 +147,7 @@ namespace Narvalo
 
             if (value.Length == 0)
             {
-                throw new ArgumentException(Strings_Cerbere.Argument_EmptyString, parameterName);
+                throw new ArgumentException(Strings.Argument_EmptyString, parameterName);
             }
 
             Contract.EndContractBlock();

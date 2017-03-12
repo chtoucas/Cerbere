@@ -4,6 +4,7 @@ namespace Narvalo
 {
     using System;
 
+    using Narvalo.Utilities;
     using Xunit;
 
     public static partial class RequireFacts

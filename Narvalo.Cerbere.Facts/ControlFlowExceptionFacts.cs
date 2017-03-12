@@ -2,6 +2,7 @@
 
 namespace Narvalo
 {
+    using Narvalo.Utilities;
     using Xunit;
 
     public static class ControlFlowExceptionFacts
