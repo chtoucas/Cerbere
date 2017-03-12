@@ -13,6 +13,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCopyright("Copyright © 2013-2017 Narvalo.Org")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
+[assembly: AssemblyConfiguration("")]
 
 [assembly: CLSCompliant(true)]
 [assembly: ComVisible(false)]
@@ -22,7 +23,6 @@ using System.Runtime.InteropServices;
 [assembly: SuppressMessage("Microsoft.Performance", "CA1812:AvoidUninstantiatedInternalClasses", Scope = "type", Target = "Narvalo.Properties.Strings_Cerbere", Justification = "[GeneratedCode] Default visibility for resources is internal.")]
 [assembly: SuppressMessage("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope = "member", Target = "Narvalo.Properties.Strings_Cerbere.#Culture", Justification = "[GeneratedCode] Default visibility for resources is internal.")]
 
-[assembly: AssemblyConfiguration("")]
 [assembly: AssemblyVersion("3.0.0.0")]
 [assembly: AssemblyFileVersion("3.0.0.0")]
 [assembly: AssemblyInformationalVersion("3.0.0.0")]
