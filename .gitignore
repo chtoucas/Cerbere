@@ -1,4 +1,5 @@
-work/
+*.nupkg
+*.exe
 
 # Follow the sample ignore file from GitHub
 #   https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
