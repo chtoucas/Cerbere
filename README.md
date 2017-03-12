@@ -55,7 +55,11 @@ Requirements:
 - Code Contracts extensions
 
 Before publishing the NuGet package, do not forget to update the version number
-in nuspec and AssemblyInfo.
+in nuspec and AssemblyInfo. Build the project, then
+```
+nuget.exe pack Narvalo.Cerbere.nuspec
+nuget.exe push -Source https://www.nuget.org/ Narvalo.Cerbere.X.Y.Z.nupkg
+```
 
 Notes
 =====
