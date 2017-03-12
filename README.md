@@ -56,3 +56,19 @@ Requirements:
 
 Before publishing the NuGet package, do not forget to update the version number
 in nuspec and AssemblyInfo.
+
+Notes
+=====
+
+### `Narvalo.Check.Unreachable()`
+
+Adapted from a [MSDN blog](https://blogs.msdn.microsoft.com/francesco/2014/09/12/how-to-use-cccheck-to-prove-no-case-is-forgotten/).
+
+Unfortunately, CCCheck will still complain with _CodeContracts: requires unreachable_.
+You can safely suppress this warning and, later on, if you reach the "unreachable"
+point, CCCheck will produce a different warning: _This requires, always
+leading to an error, may be reachable. Are you missing an enum case?
+
+### `Narvalo.ValidatedNotNullAttribute`
+
+Adapted from a [blog post](http://geekswithblogs.net/terje/archive/2010/10/14/making-static-code-analysis-and-code-contracts-work-together-or.aspx).
