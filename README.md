@@ -32,21 +32,6 @@ If you verify your code with the Code Contracts tool,
 
 In any case, **never** use `Demand` to guard a public method.
 
-### Check points
-
-None of these assertions will survive in retail builds:
-- `Check`: Code Contract + Debug.Assert
-
-### Postconditions
-
-### Class Invariants
-
-### Unreachable code
-
-### `ExcludeFromCodeCoverage`
-
-### `ValidatedNotNull`
-
 Developer notes
 ===============
 
